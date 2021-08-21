@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    border:0;
+}
+.container{
+    margin:20px;
+    background-color: aqua;
+    color: crimson;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px 5px 0 0;
+    padding:5px;
+    box-shadow: 3px 3px 3px hsl(228,45%,44%,0.15);
+}
+.container h2{
+    margin-top:10px;
+    margin-bottom: 2px;
+}
+.container img{
+    max-width: 100%;
+    margin:0;
+    height: 20%;
+}
+.container p{
+    line-height: 25px;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
